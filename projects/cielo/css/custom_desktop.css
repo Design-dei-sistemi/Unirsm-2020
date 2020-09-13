@@ -1,0 +1,1230 @@
+@import url("font.css");
+
+/*----- globali ------*/
+
+
+html {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#max {
+    width: 100vw;
+}
+
+hr {
+    border: 1px solid black;
+    margin: auto;
+    width: 30%
+}
+
+.u-max-full-width {
+    max-width: 100%;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+.offset-three-half.columns,
+.offset-three-half.columns {
+    margin-left: 30.33333333%;
+}
+
+
+.block {
+    display: block;
+}
+
+/*//------- footer ------//*/
+svg#footer-logo {
+    position: absolute;
+    width: 6%;
+    left: 22%;
+}
+
+/*----- background ------*/
+.sfondo-bianco {
+    background-color: #dfdfd7;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+}
+
+p {
+    font-family: "SoleSans", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    color: #000000;
+    text-align: left;
+    margin: auto;
+    max-width: 100%;
+    margin-bottom: 0rem;
+    letter-spacing: 0rem;
+}
+
+.sfondo-nero p {
+    color: #726f76;
+    padding-bottom: 0vh;
+
+}
+
+.sfondo-nero {
+    background-color: #000000;
+    padding-top: 8vh;
+}
+
+
+/*//-----video------//*/
+video {
+    height: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+#intro video {
+    max-width: 90%;
+    left: 5%;
+    height: auto;
+}
+
+#grafico-cina #cina {
+    top: 0;
+}
+
+.camminatori {
+    height: 313px;
+    text-align: center;
+}
+
+#video-cina video {
+    position: absolute;
+    transform: translate(-50%, 0);
+}
+
+#video-italia video {
+    position: absolute;
+    transform: translate(-50%, 0);
+}
+
+.video-container,
+.value-container {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    width: 176px;
+    height: 313px;
+    margin: auto;
+}
+
+.value-container h2,
+.value-container h4 {
+    color: white;
+    text-align: center;
+    /*        width: 53%;*/
+    margin: auto;
+    position: relative;
+    z-index: 5;
+    top: 50%;
+    transform: translateY(-75%);
+}
+
+.value-container h4 {
+    margin-top: -1vh;
+}
+
+#no-margin,
+#no-margin2 {
+    padding-bottom: 0vh;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.invisible {
+    visibility: hidden;
+
+}
+
+
+/*//---telegramma----/*/
+.telegramma {
+    padding-top: 10vh;
+}
+
+.telegramma hr {
+    margin: 3vh auto 3vh auto;
+}
+
+#aeroporti-italiani h1,
+#aeroporti-italiani h4 {
+    color: #dfdfd7;
+    text-align: center;
+}
+
+#aeroporti-italiani .grafici-palla h1 {
+    font-size: 50px;
+}
+
+#aeroporti-italiani .grafici-palla h2 {
+    font-size: 36px;
+    padding-bottom: 0;
+}
+
+#aeroporti-italiani {
+    padding-top: 7vh;
+}
+
+#aeroporti-italiani img {
+    width: 100%;
+
+}
+
+#aeroporti-italiani .four {
+    height: 280px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+
+}
+
+#aeroporti-italiani .four div {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+#aeroporti-italiani #fiumicino {
+    background-image: url(../images/UNITE%201.jpg);
+
+}
+
+#aeroporti-italiani #malpensa {
+    background-image: url(../images/UNITE%202.jpg);
+
+}
+
+#aeroporti-italiani #bologna {
+    background-image: url(../images/UNITE%203.jpg);
+
+}
+
+#aeroporti-italiani #napoli {
+    background-image: url(../images/UNITE%204.jpg);
+
+}
+
+#aeroporti-italiani #catania {
+    background-image: url(../images/UNITE%205.jpg);
+
+}
+
+#aeroporti-italiani #firenze {
+    background-image: url(../images/UNITE%206.jpg);
+
+}
+
+.grafici-palla h2 {
+    font-size: 24px;
+    padding: inherit;
+}
+
+.grafici-palla .row {
+    background-position: center;
+    background-size: cover;
+    padding-top: 11vh;
+    padding-bottom: 11vh;
+
+}
+
+.row.grafici-palla {
+    padding-top: 3vh;
+    }
+
+/*----- svg ------*/
+svg .percentuale {
+    font-size: 28px;
+    fill: #fff;
+    font-family: Sole_headline;
+    font-weight: 800;
+}
+
+svg .data {
+    font-size: 15px;
+    fill: #dfdfd7;
+    font-family: SoleSans;
+    font-weight: 400;
+
+}
+
+svg .dati {
+    font-size: 12px;
+    fill: #726f76;
+    font-family: SoleSans;
+    font-weight: 400;
+
+}
+
+svg .date {
+    font-size: 12px;
+    fill: #dfdfd7;
+    font-family: SoleSans;
+    font-weight: 400;
+
+}
+
+svg .dati_blu {
+    font-size: 12px;
+    fill: blue;
+    font-family: SoleSans;
+    font-weight: 400;
+
+}
+
+svg .fonte {
+    font-size: 10px;
+    fill: #726f76;
+    font-family: SoleSans;
+    font-weight: 300;
+
+}
+
+#crollo {
+    width: 82vw;
+    padding-left: 9vw;
+    position: absolute;
+}
+
+#crollo2 {
+    visibility: hidden;
+}
+
+div#tendina-nazioni {
+    padding-top: 1.5vh;
+}
+
+/*----- spaziature ------*/
+.spazio-1 {
+    height: 8vh;
+
+}
+
+.spazio-2 {
+    height: 3.5vh;
+
+}
+
+.spazio-3 {
+    height: 2vh;
+
+}
+
+/*----- font ------*/
+h1 {
+    font-family: "Sole_display", Arial, sans-serif;
+    font-size: 55px;
+    color: #000000;
+
+    text-align: center;
+    margin: auto;
+    max-width: 75%;
+
+    margin-bottom: 0rem;
+    letter-spacing: 0rem;
+}
+
+.sfondo-nero h1 {
+    color: #dfdfd7;
+
+}
+
+h1#titolo-intro {
+    padding-top: 3vh;
+}
+
+h2 {
+    font-family: "Sole_display", Arial, sans-serif;
+    font-size: 36px;
+    color: #dfdfd7;
+
+    text-align: center;
+    margin: auto;
+    max-width: 70%;
+
+    margin-bottom: 0rem;
+    letter-spacing: 0rem;
+
+}
+
+.sfondo-nero h2 {
+    padding-bottom: 1vh;
+    font-size: 38px;
+}
+
+h4 {
+    font-size: 16px;
+    letter-spacing: 0rem;
+}
+
+.tag1 {
+    font-family: 'SoleSans';
+    font-weight: 500;
+    color: black;
+    font-size: 20;
+
+    text-align: center;
+    margin: auto;
+    max-width: 80%;
+
+}
+
+.telegramma p {
+    padding-top: 10vh;
+}
+
+.padding-luogo {
+    padding-bottom: 2vh;
+}
+
+.nero {
+    color: black;
+}
+
+h6 {
+    font-size: 20px;
+    font-family: 'SoleSans';
+    font-weight: 300;
+    color: #726F76;
+    padding-right: 5vh;
+
+    letter-spacing: 0rem;
+
+}
+
+#fonte-palle {
+    transform: translate(30px, 0px);
+}
+
+/*----- intro ------*/
+#sole_display-intro {
+    position: relative;
+    bottom: 450px;
+}
+
+#intro p {
+    padding-bottom: 10vh;
+}
+
+
+
+/*----- grafico mpx-fmc ----*/
+
+#fmc-mpx {
+    padding-top: 2vh;
+}
+
+.linea-spenta line {
+    stroke: #dfdfd7;
+    opacity: 0.15;
+}
+
+
+
+#grafico-cina {
+    margin: auto !important;
+    top: 0;
+}
+
+/*// -------- dropdown grafico nazioni pandemia -----//*/
+
+#crollo polyline,
+#crollo2 polyline,
+#stock polyline {
+    transition: all 0.5s ease;
+
+}
+
+
+#menu,
+#menu2 {
+    text-align: center;
+}
+
+/*
+#des_grafico {
+    float: left;
+    margin-left: 5vh;
+}
+*/
+
+.sfondo-nero #tendina-nazioni p,
+.sfondo-nero #tendina-compagnie p {
+    color: #dfdfd7;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 240px;
+    color: blue;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 3px;
+
+}
+
+#menu-selezionato,
+#menu-selezionato2 {
+
+
+
+    color: blue;
+    padding: 12px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 240px;
+
+
+    font-family: 'SoleSans';
+
+    font-size: 21px;
+
+    cursor: pointer;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: -3px;
+    background-color: #000344;
+
+    width: 247px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: gainsboro;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'SoleSans';
+    font-size: 18px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: black;
+    color: blue;
+    cursor: pointer;
+}
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+div#tendina-compagnie {
+    
+    padding-bottom: 1.5vh;
+    padding-top: 3vh;
+
+}
+
+
+/*//---- footer --- //*/
+
+svg#foot {
+    padding-top: 5vh;
+    width: 90%;
+    padding-left: 5%;
+}
+
+#footer p {
+    padding-top: 0;
+    color: white;
+    font-size: 15px;
+}
+
+#footer {
+    padding-bottom: 6vh;
+}
+
+.sfondo-bianco #foot {
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+}
+
+#nomi-foot {
+    padding-top: 3vh;
+}
+
+/*//---- heater --- //*/
+
+#fixed-header {
+    width: 100%;
+    position: fixed;
+    padding: 10px 0;
+    top: 0;
+    z-index: 1000;
+}
+
+#fixed-header p {
+    text-align: center;
+    font-weight: 500;
+}
+
+/*// ------- media query ------ //*/
+
+
+@media (max-width: 900px) {
+    .offset-three-half.columns {
+        margin-left: 2.5%;
+    }
+
+    .five.columns {
+        width: 95%;
+
+    }
+
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* normale*/
+    svg#crollo {
+        position: absolute;
+        visibility: visible;
+    }
+
+    svg#crollo2 {
+        visibility: hidden;
+    }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .offset-three-half.columns {
+        margin-left: 20%;
+    }
+
+    .five.columns {
+        width: 60%;
+
+    }
+
+    h2 {
+        width: 90%;
+    }
+
+    p {
+        font-size: 21px;
+        line-height: 1.25;
+    }
+
+    .sfondo-nero h2 {
+        font-size: 28px;
+    }
+
+    svg#footer-logo {
+        left: 12%;
+    }
+
+
+    svg#crollo {
+        position: absolute;
+        visibility: visible;
+    }
+
+    svg#crollo2 {
+        visibility: hidden;
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .offset-three-half.columns {
+        margin-left: 15%;
+    }
+
+    .five.columns {
+        width: 70%;
+    }
+
+    h2 {
+        width: 90%;
+    }
+
+    p {
+        font-size: 21px;
+        line-height: 1.25;
+    }
+
+    .sfondo-nero h2 {
+        font-size: 28px;
+    }
+
+    svg#footer-logo {
+        left: 5%;
+        width: 7%;
+    }
+
+    svg#crollo {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    svg#crollo2 {
+        visibility: visible;
+    }
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .offset-three-half.columns {
+        margin-left: 10%;
+    }
+
+    .five.columns {
+        width: 80%;
+    }
+
+    .container {
+        padding-right: 3px;
+        padding-left: 3px
+    }
+
+
+    .sfondo-nero {
+        padding-top: 12vh;
+    }
+
+    .camminatori {
+        height: 250px;
+    }
+
+    .video-container,
+    .value-container {
+        height: 250px;
+    }
+
+    h1#titolo-intro {
+        font-size: 40px;
+        max-width: 95%;
+    }
+
+    .sfondo-nero h2 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    h2#no-margin,
+    h2#no-margin2 {
+        font-size: 40px;
+    }
+
+    h2 {
+        max-width: 95%;
+    }
+
+    p {
+        font-size: 19px;
+        line-height: 1.25;
+        max-width: 98%;
+    }
+
+
+    /*    grafici_palla*/
+    .grafici-palla .row {
+        background-size: 115%;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        margin-bottom: 2vh;
+    }
+    
+
+    #aeroporti-italiani .grafici-palla h2 {
+        font-size: 25px;
+    }
+
+    #aeroporti-italiani .grafici-palla h1 {
+        font-size: 40px;
+    }
+
+    .grafici-palla h2 {
+        padding-top: 0vh;
+    }
+
+    #fonte-palle {
+        font-size: 12px;
+    }
+
+
+
+    /*grafico malpensa*/
+    #aeroporti-italiani {
+        padding-top: 10vh;
+    }
+
+
+    /*    telegramma*/
+    .telegramma h2 {
+        font-size: 32px;
+    }
+
+    .telegramma h1 {
+        font-size: 50px;
+    }
+
+    /*menu tendina*/
+    .dropdown {
+        width: 110px;
+        border-width: 2px;
+    }
+
+    .dropdown-content {
+        width: 116px;
+    }
+
+    .dropdown-content a {
+        padding: 4px 6px;
+        background-color: #000344;
+        font-size: 16px;
+    }
+
+    #menu-selezionato2 {
+        font-size: 18px;
+    }
+
+
+    /*    grafico nazioni pandemia*/
+    #crollo {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    div#tendina-nazioni {
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+
+    svg#crollo {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    svg#crollo2 {
+        visibility: visible;
+    }
+
+    /*grafico compagnie aeree*/
+    div#tendina-compagnie {
+        padding-bottom: 4vh;
+        padding-top: 3vh;
+    }
+
+    /*    --- footer ----*/
+    div#footer {
+        float: right;
+        width: 80%;
+    }
+
+    svg#footer-logo {
+        position: inherit;
+        width: 14%;
+        left: inherit;
+    }
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .offset-three-half.columns {
+        margin-left: 1%;
+    }
+
+    .five.columns {
+        width: 98%;
+
+    }
+
+    .container {
+        padding-right: 3px;
+        padding-left: 3px
+    }
+
+
+    .sfondo-nero {
+        padding-top: 11.5vh;
+    }
+
+    .camminatori {
+        height: 250px;
+    }
+
+    .video-container,
+    .value-container {
+        height: 250px;
+    }
+
+    h1#titolo-intro {
+        font-size: 40px;
+        max-width: 95%;
+    }
+
+    .sfondo-nero h2 {
+        width: 100%;
+        font-size: 30px;
+        padding-bottom: 0vh;
+    }
+
+    h2#no-margin,
+    h2#no-margin2 {
+        font-size: 40px;
+    }
+
+    h2 {
+        max-width: 95%;
+    }
+
+    p {
+        font-size: 19px;
+        line-height: 1.25;
+        max-width: 98%;
+    }
+    
+    .sfondo-nero p{
+        padding-bottom: 0vh;
+    }
+
+
+    /*    grafici_palla*/
+    .grafici-palla .row {
+        background-size: 115%;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        margin-bottom: 2vh;
+    }
+
+    #aeroporti-italiani .grafici-palla h2 {
+        font-size: 25px;
+    }
+
+    #aeroporti-italiani .grafici-palla h1 {
+        font-size: 40px;
+    }
+
+    .grafici-palla h2 {
+        padding-top: 0vh;
+    }
+
+    #fonte-palle {
+        font-size: 12px;
+    }
+
+
+
+    /*grafico malpensa*/
+    #aeroporti-italiani {
+        padding-top: 12vh;
+    }
+
+
+    /*    telegramma*/
+    .telegramma h2 {
+        font-size: 32px;
+    }
+
+    .telegramma h1 {
+        font-size: 40px;
+        max-width: 90%;
+    }
+
+    /*menu tendina*/
+    .dropdown {
+        width: 110px;
+        border-width: 2px;
+    }
+
+    .dropdown-content {
+        width: 116px;
+    }
+
+    .dropdown-content a {
+        padding: 4px 6px;
+        background-color: #000344;
+        font-size: 16px;
+    }
+
+    #menu-selezionato2 {
+        font-size: 18px;
+    }
+
+
+    /*    grafico nazioni pandemia*/
+    #crollo {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    div#tendina-nazioni {
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+
+    svg#crollo {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    svg#crollo2 {
+        visibility: visible;
+    }
+
+    /*grafico compagnie aeree*/
+    div#tendina-compagnie {
+        padding-bottom: 4vh;
+        padding-top: 3vh;
+    }
+
+    #intro video {
+        max-width: 100%;
+        left: 0%;
+    }
+    
+    svg#inquinamento {
+     padding-top: 5vh; 
+    }
+    svg#carburante {
+    padding-top: 3vh;
+    }
+
+    /*    ----- footer  -------*/
+    div#footer {
+        float: right;
+        width: 80%;
+    }
+
+    svg#footer-logo {
+        position: inherit;
+        width: 15.5%;
+        left: inherit;
+        padding-left: 3vw;
+    }
+
+    /*
+    .dropdown:onclick .dropdown-content {
+        display: block;
+    }
+*/
+
+}
+
+/* fine mobile-mini*/
+
+
+@media (max-width: 375px) and (max-height: 720px) {
+    p {
+        font-size: 16px;
+    }
+
+    .sfondo-nero h2 {
+        font-size: 22px;
+    }
+
+    .sfondo-nero {
+        padding-top: 11.5vh;
+    }
+
+    .camminatori {
+        height: 210px;
+    }
+
+    .video-container,
+    .value-container {
+        height: 210px;
+    }
+
+    h2#no-margin,
+    h2#no-margin2 {
+        font-size: 35px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    .video-container,
+    .value-container {
+        width: 160px;
+    }
+
+}
+
+/*------ media per TABLE ORIZZONTALE -------*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (max-height: 850px){
+    
+    .camminatori {
+        height: 210px;
+    }
+
+    .video-container,
+    .value-container {
+        height: 210px;
+    }
+    .video-container,
+    .value-container {
+        width: 160px;
+    }
+    
+    .five.columns {
+    width: 48%;
+}
+    .offset-three-half.columns {
+    margin-left: 26%;
+}
+    
+    svg#crollo {
+        position: absolute;
+        visibility: visible;
+    }
+
+    svg#crollo2 {
+        visibility: hidden;
+    }
+
+}
+
+/*----- media query pc basso -----*/
+
+@media (min-width: 768px) and (max-width: 1280px) and (max-height: 800px){
+    .five.columns {
+    width: 50%;
+}
+    .offset-three-half.columns {
+    margin-left: 25%;
+}
+    
+    svg{
+        width: 70%;
+        padding-left: 15%;
+    }
+    
+    p{
+        font-size: 18px;
+    }
+    h1{
+        font-size:  45px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .camminatori {
+        height: 160px;
+    }
+    .value-container {
+        height: 160px;
+        width: 135px;
+    }
+    .video-container{
+        height: 160px;
+    }
+    
+    h4{
+        font-size: 13px;
+    }
+    
+    .sfondo-nero h2 {
+    padding-top: 2vh;
+    padding-bottom: 0vh;
+}
+    #aeroporti-italiani .grafici-palla h1 {
+    font-size: 45px;
+}
+    #aeroporti-italiani .grafici-palla h2 {
+    font-size: 30px;
+}
+    #crollo {
+    width: 68vw;
+    padding-left: 16vw;
+    }
+    .dropdown{
+        width: 150px;
+        border-width: 1.5px;
+    }
+    .dropdown-content{
+        width: 154px;
+    }
+    .dropdown-content a {
+    font-size: 16px;
+}
+    
+    div#tendina-compagnie {
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+}
+    
+    #carburante {
+    width: 65%;
+    padding-left: 17.5%;
+}
+    svg#footer-logo {
+    left: 0%;
+}
+    
+    
+    
+}
+
+
+@media(hover: hover) and (pointer: fine) {
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+}
+
+@-moz-document url-prefix() {
+
+    #crollo {
+        padding-left: 4vw;
+        display: flex;
+    }
+}
