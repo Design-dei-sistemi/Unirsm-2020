@@ -38,11 +38,12 @@ h6 {
 
 h1 {
 	color: #FFFFFF;
-	font-weight: 600;
+	font-weight: 400;
+	font-style: italic;
 	font-size: 6.7rem;
 	margin-bottom: 2rem;
 	margin-top: 5rem;
-	font-family: 'IBM Plex Sans', sans-serif;
+	font-family: 'IBM Plex Mono', monospace;
 }
 
 #main p,
@@ -67,7 +68,7 @@ a:hover {
 #projects h4,
 #projects h3 {
 	font-size: 2rem;
-	font-weight: 300;
+	font-weight: 400;
 	letter-spacing: 0.01rem;
 	margin: 0;
 	color: #E9F0FF;
@@ -90,7 +91,9 @@ a:hover {
 }
 
 #projects h4 a {
-	font-weight: 800;
+	font-weight: 400;
+	font-size: 3rem;
+	text-decoration: none;
 }
 
 #logos,
@@ -109,13 +112,18 @@ a:hover {
 /* Larger than mobile */
 @media (min-width: 320px) {
 	body {
-		margin: 0 5% 0 5%;
+		margin: 0;
 	}
 
 	h1 {
 		font-size: 5rem;
 	}
 
+	#projects h4 a {
+
+		font-size: 2.7rem;
+
+	}
 
 
 	#logos img {
